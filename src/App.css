@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+body{ 
+background-color: #ad79e1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding: 15%;
+}
+.game{
+  padding: 10%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 2px solid rgb(7, 5, 18);
+  color:rgb(92, 5, 233)
+}
+.game-board{
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+input{
+  padding: 10px;
+  border: 1px solid rgb(187, 19, 69);
+  border-radius: 10px;}
+
+input:hover{
+  background-color: rgb(174, 168, 234);
+}
+
+input:focus{
+  border:0px;
+  background-color: rgb(231, 239, 199);
+}

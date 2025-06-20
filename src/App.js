@@ -1,23 +1,25 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Result from './Result';
+const secretNumber = Math.floor(Math.random() *10)+1;
 
 function App() {
+  const [term, setTerm] = useState('');
+
+  const handleChange= (event) => {setTerm(event.target.value)};
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="game">
+     <div class name="game-board">
+      <lable htmlFor='term'> Identify the number 0 to 10  </lable>
+      </div> 
+      <input 
+      id='term'
+      type="text"
+      name="term"
+      onChange={handleChange}/>
+      <Result secretNumber={secretNumber} term={term}/>
     </div>
   );
 }
