@@ -1,0 +1,153 @@
+[
+  {
+    "id": "1",
+    "name": "Apple iPhone 15",
+    "price": "799",
+    "description": "Latest Apple iPhone with advanced features.",
+    "ratings": "4.8",
+    "images": [
+      { "image": "/images/products/1.jpg" },
+      { "image": "/images/products/2.jpg" }
+    ],
+    "category": "Smartphones",
+    "seller": "Apple Store",
+    "stock": "50",
+    "numberofreviews": "120",
+    "createdAt": "2024-06-23T10:30:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Samsung Galaxy S24",
+    "price": "699",
+    "description": "Samsung's flagship smartphone with powerful performance.",
+    "ratings": "4.7",
+    "images": [
+      { "image": "/images/products/3.jpg" }
+    ],
+    "category": "Smartphones",
+    "seller": "Samsung Store",
+    "stock": "60",
+    "numberofreviews": "98",
+    "createdAt": "2024-06-20T09:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Sony WH-1000XM5",
+    "price": "349",
+    "description": "Industry-leading noise canceling headphones.",
+    "ratings": "4.6",
+    "images": [
+      { "image": "/images/products/4.jpg" }
+    ],
+    "category": "Headphones",
+    "seller": "Sony Center",
+    "stock": "30",
+    "numberofreviews": "75",
+    "createdAt": "2024-06-15T12:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "Dell XPS 13",
+    "price": "999",
+    "description": "Compact and powerful ultrabook from Dell.",
+    "ratings": "4.5",
+    "images": [
+      { "image": "/images/products/5.jpg" }
+    ],
+    "category": "Laptops",
+    "seller": "Dell Store",
+    "stock": "20",
+    "numberofreviews": "45",
+    "createdAt": "2024-06-10T08:30:00.000Z"
+  },
+  {
+    "id": "5",
+    "name": "Apple MacBook Air M2",
+    "price": "1199",
+    "description": "Apple's latest MacBook Air with M2 chip.",
+    "ratings": "4.9",
+    "images": [
+      { "image": "/images/products/6.jpg" }
+    ],
+    "category": "Laptops",
+    "seller": "Apple Store",
+    "stock": "15",
+    "numberofreviews": "60",
+    "createdAt": "2024-06-05T14:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "name": "Canon EOS R10",
+    "price": "899",
+    "description": "Mirrorless camera for photography enthusiasts.",
+    "ratings": "4.4",
+    "images": [
+      { "image": "/images/products/7.jpg" }
+    ],
+    "category": "Cameras",
+    "seller": "Canon Store",
+    "stock": "10",
+    "numberofreviews": "22",
+    "createdAt": "2024-06-01T11:00:00.000Z"
+  },
+  {
+    "id": "7",
+    "name": "Bose QuietComfort Earbuds II",
+    "price": "299",
+    "description": "Premium noise-cancelling earbuds from Bose.",
+    "ratings": "4.7",
+    "images": [
+      { "image": "/images/products/8.jpg" }
+    ],
+    "category": "Earbuds",
+    "seller": "Bose Store",
+    "stock": "40",
+    "numberofreviews": "55",
+    "createdAt": "2024-05-28T16:00:00.000Z"
+  },
+  {
+    "id": "8",
+    "name": "Fitbit Charge 6",
+    "price": "149",
+    "description": "Advanced fitness tracker with heart rate monitoring.",
+    "ratings": "4.3",
+    "images": [
+      { "image": "/images/products/9.jpg" }
+    ],
+    "category": "Wearables",
+    "seller": "Fitbit Store",
+    "stock": "70",
+    "numberofreviews": "33",
+    "createdAt": "2024-05-25T10:00:00.000Z"
+  },
+  {
+    "id": "9",
+    "name": "LG 4K Smart TV 55\"",
+    "price": "599",
+    "description": "Ultra HD smart TV with vibrant display.",
+    "ratings": "4.5",
+    "images": [
+      { "image": "/images/products/10.jp" }
+    ],
+    "category": "Televisions",
+    "seller": "LG Store",
+    "stock": "25",
+    "numberofreviews": "40",
+    "createdAt": "2024-05-20T13:00:00.000Z"
+  },
+  {
+    "id": "10",
+    "name": "Microsoft Surface Pro 9",
+    "price": "1299",
+    "description": "Versatile 2-in-1 laptop and tablet.",
+    "ratings": "4.6",
+    "images": [
+      { "image": "/images/products/11.jpg" }
+    ],
+    "category": "Laptops",
+    "seller": "Microsoft Store",
+    "stock": "18",
+    "numberofreviews": "28",
+    "createdAt": "2024-05-15T15:00:00.000Z"
+  }
+]
